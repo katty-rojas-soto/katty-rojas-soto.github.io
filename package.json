@@ -1,0 +1,19 @@
+{
+  "name": "github-pages-tailwind",
+  "scripts": {
+    "build": "npx tailwindcss -i ./styles.css -o ./output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1"
+  },
+  "version": "1.0.0",
+  "description": "Gestión de Recursos Humanos || Procesos de Selección",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

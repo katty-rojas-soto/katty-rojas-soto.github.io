@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Katty's portafolio</title>
+  <link href="output.css" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="icon" href="assets/logo-imagen.svg" type="image/svg+xml">
+</head>
+
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white/70 backdrop-blur-sm shadow mb-8 sticky top-0 z-50 transition duration-300 ease-in-out">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+
+      <div class="grid grid-cols-[auto,1fr] items-center gap-2">
+        <!-- <a href="/">
+          <img src="assets/logo-imagen.svg" alt="JeffAngel Logo Icon" class="h-14 w-auto">
+        </a> -->
+        <a href="/" class="hidden md:flex flex-col justify-center">
+          <img src="assets/logo-text-katty.svg" alt="JeffAngel.AR Text" class="h-8 w-auto mb-1">
+          <span class="text-[12px] text-gray-500 leading-none">
+            Reclutamiento · Organización · Análisis · Personas
+          </span>
+        </a>
+      </div>
+
+      <div class="space-x-4 text-sm">
+        <a href="#projects" class="text-gray-600 hover:text-blue-600">Proyectos</a>
+        <a href="#blog" class="text-gray-600 hover:text-blue-600">Blog</a>
+        <a href="#experience" class="text-gray-600 hover:text-blue-600">Experiencia</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <main class="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <!-- Perfil lateral -->
+    <aside class="bg-white rounded-xl shadow p-6 lg:col-span-1">
+      <div class="text-center">
+        <img class="w-32 h-32 object-cover rounded-full mx-auto mb-4" src="assets/my_photo.jpg" alt="Katty Rojas Soto">
+        <h1 class="text-xl font-bold">Katty Rojas Soto</h1>
+        <p class="text-sm text-gray-500">Gestión de Recursos Humanos || Procesos de Selección</p>
+        <p class="text-sm text-gray-500">Con base en Lima, Perú (Remoto)</p>
+        <div class="mt-4 flex justify-center space-x-4">
+          <a href="https://www.linkedin.com/in/katty-rojas-soto/"><img class="w-5 h-5"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/linkedin.svg"></a>
+          <a href="https://github.com/kattyrojassoto"><img class="w-5 h-5"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg"></a>
+          <a href="mailto:katty.rojas.soto@gmail.com"><img class="w-5 h-5"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/gmail.svg"></a>
+        </div>
+        <div class="text-xs mt-1">📧 katty.rojas.soto@gmail.com</div>
+      </div>
+      <!-- <div class="flex justify-end">
+        <a href="/en/index.html" class="text-xs text-gray-500 hover:text-blue-600 underline">English version</a>
+      </div> -->
+      <div class="mt-6">
+        <h2 class="text-sm font-semibold text-gray-700 mb-1">SOBRE MÍ</h2>
+        <p class="text-sm text-gray-600">Profesional con más de 6 años de experiencia en contabilidad, especializada en
+          tesorería y control de procesos financieros. Actualmente enfocada en Recursos Humanos tras cursar un máster en
+          Gestión de RRHH, donde aplica su experiencia en organización, análisis de datos y seguimiento para optimizar
+          procesos de selección. Combina precisión analítica con enfoque práctico para mejorar la gestión de candidatos
+          y la toma de decisiones en reclutamiento.</p>
+      </div>
+      <div class="mt-6">
+        <h2 class="text-base font-bold text-gray-700 mb-2">HABILIDADES</h2>
+        <div class="space-y-4 mt-2">
+
+          <!-- Áreas de RRHH -->
+          <div>
+            <h3 class="text-xs font-semibold text-gray-600">Áreas de RRHH</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-red-100 text-red-700 px-2 py-1 text-xs rounded-full">Gestión del Talento</span>
+              <span class="bg-red-100 text-red-700 px-2 py-1 text-xs rounded-full">Administración de Personal</span>
+              <span class="bg-red-100 text-red-700 px-2 py-1 text-xs rounded-full">Clima Laboral</span>
+              <span class="bg-red-100 text-red-700 px-2 py-1 text-xs rounded-full">Evaluación del Desempeño</span>
+            </div>
+          </div>
+
+          <!-- Reclutamiento & Procesos -->
+          <div>
+            <h3 class="text-xs font-semibold text-gray-600">Reclutamiento y Procesos</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-blue-100 text-blue-700 px-2 py-1 text-xs rounded-full">Seguimiento de Candidatos</span>
+              <span class="bg-blue-100 text-blue-700 px-2 py-1 text-xs rounded-full">Gestión de Pipeline</span>
+              <span class="bg-blue-100 text-blue-700 px-2 py-1 text-xs rounded-full">Organización de Procesos</span>
+              <span class="bg-blue-100 text-blue-700 px-2 py-1 text-xs rounded-full">Control de Etapas</span>
+            </div>
+          </div>
+
+          <!-- Análisis y Reportes -->
+          <div>
+            <h3 class="text-xs font-semibold text-gray-600">Análisis y Reportes</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-green-100 text-green-700 px-2 py-1 text-xs rounded-full">Análisis de Datos</span>
+              <span class="bg-green-100 text-green-700 px-2 py-1 text-xs rounded-full">Indicadores de Gestión</span>
+              <span class="bg-green-100 text-green-700 px-2 py-1 text-xs rounded-full">Reportes en Excel</span>
+              <span class="bg-green-100 text-green-700 px-2 py-1 text-xs rounded-full">Toma de Decisiones</span>
+            </div>
+          </div>
+
+          <!-- Apoyo Administrativo -->
+          <div>
+            <h3 class="text-xs font-semibold text-gray-600">Apoyo Administrativo</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-yellow-100 text-yellow-700 px-2 py-1 text-xs rounded-full">Control Documental</span>
+              <span class="bg-yellow-100 text-yellow-700 px-2 py-1 text-xs rounded-full">Organización de
+                Información</span>
+              <span class="bg-yellow-100 text-yellow-700 px-2 py-1 text-xs rounded-full">Seguimiento de Tareas</span>
+              <span class="bg-yellow-100 text-yellow-700 px-2 py-1 text-xs rounded-full">Cumplimiento de Plazos</span>
+            </div>
+          </div>
+
+          <!-- Herramientas -->
+          <div>
+            <h3 class="text-xs font-semibold text-gray-600">Herramientas</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 text-xs rounded-full">Excel (Intermedio)</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 text-xs rounded-full">Word</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 text-xs rounded-full">PowerPoint</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 text-xs rounded-full">Outlook</span>
+            </div>
+          </div>
+
+          <!-- Competencias -->
+          <div>
+            <h3 class="text-xs font-semibold text-gray-600">Competencias</h3>
+            <div class="flex flex-wrap gap-2">
+              <span class="bg-purple-100 text-purple-700 px-2 py-1 text-xs rounded-full">Organización</span>
+              <span class="bg-purple-100 text-purple-700 px-2 py-1 text-xs rounded-full">Comunicación Efectiva</span>
+              <span class="bg-purple-100 text-purple-700 px-2 py-1 text-xs rounded-full">Trabajo en Equipo</span>
+              <span class="bg-purple-100 text-purple-700 px-2 py-1 text-xs rounded-full">Atención al Detalle</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </aside>
+
+    <!-- Contenido principal agrupado -->
+    <div class="lg:col-span-2 space-y-6">
+      <!-- Proyectos -->
+      <section id="projects" class="lg:col-span-2 space-y-6">
+        <h2 class="text-lg font-bold">PROYECTOS DEL PORTAFOLIO</h2>
+        <!-- <div class="bg-white rounded-xl shadow p-6 flex flex-col md:flex-row gap-4">
+          <img class="w-full md:w-48 h-32 object-cover rounded"
+            src="assets/projects/employee-churn-mlops/employee-churn.png" alt="Employee churn prediction">
+          <div>
+            <h3 class="font-semibold text-lg">Predicción de rotación de empleados - Proyecto MLOps en Docker</h3>
+            <div class="flex flex-wrap gap-2 text-xs mt-1">
+              <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">ML Frequentist</span>
+              <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full">Comet ML</span>
+              <span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full">ZenML</span>
+              <span class="bg-rose-100 text-rose-700 px-2 py-1 rounded-full">Evidently</span>
+              <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full">MinIO</span>
+              <span class="bg-pink-100 text-pink-700 px-2 py-1 rounded-full">Docker</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded-full">GitHub Actions</span>
+            </div>
+            <p class="text-sm text-gray-600 mt-2">Sistema de predicción de rotación de talento basado en machine
+              learning, implementado con mejores prácticas de MLOps. Incluye pipelines reproducibles, monitoreo y
+              despliegue containerizado con Docker.</p>
+            <a href="https://github.com/jeffangel/talent-retention-mlops"
+              class="inline-block mt-2 text-sm text-blue-600 hover:underline">Ver más →</a>
+          </div>
+        </div> -->
+
+        <div class="bg-white rounded-xl shadow p-6 flex flex-col md:flex-row gap-4">
+          <img class="w-full md:w-48 h-32 object-cover rounded"
+            src="assets/projects/dashboard-de-reclutamiento-en-excel/kpi.jpg" alt="Dashboard de reclutamiento en Excel">
+
+          <div>
+            <h3 class="font-semibold text-lg">Dashboard de Reclutamiento en Excel</h3>
+
+            <div class="flex flex-wrap gap-2 text-xs mt-1">
+              <span class="bg-red-100 text-red-700 px-2 py-1 rounded-full">RRHH</span>
+              <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">Excel</span>
+              <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full">Seguimiento de Candidatos</span>
+              <span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full">Análisis</span>
+              <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Dashboard</span>
+            </div>
+
+            <p class="text-sm text-gray-600 mt-2">
+              Caso práctico de portafolio enfocado en reclutamiento. A partir de datos con errores, se desarrolla un
+              proceso de limpieza, estructuración y análisis en Excel para obtener métricas e insights útiles sobre el
+              proceso de selección.
+            </p>
+
+            <a href="proyectos/dashboard-de-reclutamiento-en-excel/"
+              class="inline-block mt-2 text-sm text-blue-600 hover:underline">
+              Ver proyecto →
+            </a>
+          </div>
+        </div>
+
+        <!-- <div class="bg-white rounded-xl shadow p-6 flex flex-col md:flex-row gap-4">
+          <img class="w-full md:w-48 h-32 object-cover rounded"
+            src="assets/projects/simulating-sagemaker-inference-with-localstack/mlops.jpg"
+            alt="SageMaker with LocalStack">
+          <div>
+            <h3 class="font-semibold text-lg">Simulando AWS SageMaker Inference con LocalStack</h3>
+            <div class="flex flex-wrap gap-2 text-xs mt-1">
+              <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">AWS SageMaker</span>
+              <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full">LocalStack</span>
+              <span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full">Docker</span>
+              <span class="bg-rose-100 text-rose-700 px-2 py-1 rounded-full">Pruebas Locales</span>
+              <span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full">ML Inference</span>
+            </div>
+            <p class="text-sm text-gray-600 mt-2">Guía práctica para simular endpoints de inferencia de AWS SageMaker
+              localmente usando LocalStack. Demuestra cómo probar y desarrollar pipelines de inferencia ML sin incurrir
+              en costos de AWS, con configuración containerizada e integración CI/CD.</p>
+            <a href="https://github.com/jeffangel/simulating-sagemaker-inference-with-localstack"
+              class="inline-block mt-2 text-sm text-blue-600 hover:underline">Ver más →</a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow p-6 flex flex-col md:flex-row gap-4">
+          <img class="w-full md:w-48 h-32 object-cover rounded" src="assets/projects/connect+/connect+.jpeg"
+            alt="project">
+          <div>
+            <h3 class="font-semibold text-lg">Proyecto de Hackathon de Microsoft: Connect+ - Plataforma para potenciar
+              el networking de mujeres en tecnología usando Azure</h3>
+            <div class="flex flex-wrap gap-2 text-xs mt-1">
+              <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">LLM</span>
+              <span class="bg-green-100 text-green-700 px-2 py-1 rounded-full">Document Intelligence</span>
+              <span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full">AI Search</span>
+              <span class="bg-rose-100 text-rose-700 px-2 py-1 rounded-full">Azure Data Lake</span>
+              <span class="bg-pink-100 text-pink-700 px-2 py-1 rounded-full">Docker</span>
+              <span class="bg-gray-100 text-gray-700 px-2 py-1 rounded-full">Azure Cosmos DB</span>
+            </div>
+            <p class="text-sm text-gray-600 mt-2">Plataforma full‑stack basada en microservicios para promover la
+              inclusión de mujeres en tecnología, con arquitectura escalable, pipelines reproducibles, comunicación
+              eficiente entre servicios y despliegue containerizado.</p>
+            <a href="https://github.com/jeffangel/hackbox-grupo7"
+              class="inline-block mt-2 text-sm text-blue-600 hover:underline">Ver más →</a>
+          </div>
+        </div> -->
+      </section>
+      <!-- Blog section -->
+      <section id="blog" class="lg:col-span-2 space-y-6">
+        <h2 class="text-lg font-bold mt-12">BLOG</h2>
+        <!-- <div class="bg-white rounded-xl shadow p-6">
+          <h3 class="font-semibold text-lg">Cómo construí un pipeline MLOps end‑to‑end con ZenML y Comet</h3>
+          <p class="text-sm text-gray-600 mt-2">Guía paso a paso para integrar experiment tracking, pipelines
+            reproducibles, monitoreo con Evidently y despliegue de modelos con Docker.</p>
+          <a href="/blog/primero/" class="inline-block mt-2 text-sm text-blue-600 hover:underline">Leer artículo →</a>
+        </div> -->
+
+        <div class="bg-white rounded-xl shadow p-6">
+          <h3 class="font-semibold text-lg">
+            Cómo la organización del proceso de selección influye en la experiencia del candidato
+          </h3>
+
+          <p class="text-sm text-gray-600 mt-2">
+            Reflexión sobre cómo la estructura, el seguimiento y la claridad en los procesos de selección
+            impactan directamente en la percepción del candidato y en la calidad del reclutamiento.
+          </p>
+
+          <a href="/blog/experiencia-candidato-proceso-seleccion/"
+            class="inline-block mt-2 text-sm text-blue-600 hover:underline">
+            Leer artículo →
+          </a>
+        </div>
+
+
+      </section>
+
+
+<!-- Educación y experiencia -->
+<section id="experience" class="lg:col-span-2 space-y-6">
+  <h2 class="text-lg font-bold mt-12">EXPERIENCIA Y EDUCACIÓN</h2>
+
+  <div class="bg-white rounded-xl shadow p-6 text-sm text-gray-700 space-y-8">
+
+    <!-- EXPERIENCIA -->
+    <div>
+      <h3 class="font-semibold text-base text-gray-800">Experiencia</h3>
+
+      <!-- Serdir -->
+      <div class="mt-4">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
+          <p class="text-sm">
+            <span class="font-semibold text-gray-800">Serdir S.A.</span>
+            <span class="text-gray-600"> · Asistente de Contabilidad</span>
+          </p>
+          <p class="text-xs text-gray-500 whitespace-nowrap">
+            Jul 2018 – Presente
+          </p>
+        </div>
+        <ul class="list-disc ml-6 mt-2 space-y-1">
+          <li>Gestión y control de ingresos y egresos mediante conciliaciones bancarias.</li>
+          <li>Registro y seguimiento de pagos a proveedores, ventas y detracciones.</li>
+          <li>Elaboración de reportes e inventarios para control operativo.</li>
+        </ul>
+      </div>
+
+      <!-- Etanfor -->
+      <div class="mt-6">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
+          <p class="text-sm">
+            <span class="font-semibold text-gray-800">Etanfor S.A.</span>
+            <span class="text-gray-600"> · Asistente de Contabilidad</span>
+          </p>
+          <p class="text-xs text-gray-500 whitespace-nowrap">
+            Ago 2017 – Jul 2018
+          </p>
+        </div>
+
+        <ul class="list-disc ml-6 mt-2 space-y-1">
+          <li>Control de pagos a proveedores e inventarios.</li>
+          <li>Elaboración de Kardex y auditoría de caja.</li>
+          <li>Soporte administrativo y apoyo en gestión de planillas.</li>
+        </ul>
+      </div>
+
+      <!-- Placacentros -->
+      <div class="mt-6">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
+          <p class="text-sm">
+            <span class="font-semibold text-gray-800">Placacentros Massisa Perú SAC</span>
+            <span class="text-gray-600"> · Practicante Contable</span>
+          </p>
+          <p class="text-xs text-gray-500 whitespace-nowrap">
+            Feb 2016 – Feb 2017
+          </p>
+        </div>
+
+        <ul class="list-disc ml-6 mt-2 space-y-1">
+          <li>Registro de operaciones contables y apoyo en inventarios.</li>
+          <li>Control de stock y organización de documentación.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- EDUCACIÓN -->
+    <div>
+      <h3 class="font-semibold text-base text-gray-800">Educación</h3>
+
+      <!-- MSc -->
+      <div class="mt-4">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
+          <p class="text-sm">
+            <span class="font-semibold text-gray-800">Maestría en Dirección y Gestión de Personas</span>
+          </p>
+          <p class="text-xs text-gray-500 whitespace-nowrap">
+            Oct 2024 – Ago 2025
+          </p>
+        </div>
+
+        <p class="text-xs text-gray-500">
+          Universidad Internacional de Valencia · Lima, Perú
+        </p>
+
+        <ul class="list-disc ml-6 mt-2 space-y-1">
+          <li>Gestión estratégica del talento y clima organizacional.</li>
+          <li>People Analytics y toma de decisiones basada en datos.</li>
+          <li>Gestión del desempeño y experiencia del empleado.</li>
+        </ul>
+      </div>
+
+      <!-- BSc -->
+      <div class="mt-6">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
+          <p class="text-sm">
+            <span class="font-semibold text-gray-800">Bachiller en Contabilidad Financiera</span>
+          </p>
+          <p class="text-xs text-gray-500 whitespace-nowrap">
+            Ago 2019 – Dic 2023
+          </p>
+        </div>
+
+        <p class="text-xs text-gray-500">
+          Universidad Tecnológica del Perú · Lima, Perú
+        </p>
+
+        <ul class="list-disc ml-6 mt-2 space-y-1">
+          <li>Contabilidad financiera, costos y tributación.</li>
+          <li>Análisis de estados financieros y control económico.</li>
+          <li>Legislación tributaria y laboral.</li>
+        </ul>
+      </div>
+
+      <!-- Complementaria -->
+      <div class="mt-6">
+        <p class="font-semibold text-gray-800">Educación Complementaria</p>
+
+        <ul class="list-disc ml-6 mt-2 space-y-1">
+          <li>Certificación en Recursos Humanos (CAMPEX)</li>
+          <li>Gestión de Planillas</li>
+          <li>Excel enfocado en análisis y reportes</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+    </div>
+  </main>
+</body>
+
+</html>
